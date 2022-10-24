@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+* {
+    color: black;
+}
+
+body {
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font: 18px "Nunito", sans-serif;
+    color: black;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 350px;
+}
+
+.profile-card-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card-img {
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1200px;
+}
+
+#h1-name {
+    font-size: 30px;
+}
+
+.numbers {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.desc {
+    margin: 10px;
+}
+
+.name {
+    margin: 10px;
+}
+
+.profile-card-desc div {
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.profile-card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.profile-card-social {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.facebook {
+    background: linear-gradient(45deg, #1877F2, white, #1877F2);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.facebook:hover {
+    transition: 0.3s;
+    position: relative;
+    transform: scale(1.1);
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.twitter:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    position: relative;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #913A9E, #E99171, #913A9E);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    position: relative;
+}
+
+.github {
+    border-radius: 10px;
+    background-color: lightslategray;
+    transition: 0.3s;
+}
+
+.github:hover {
+    transform: scale(1.1);
+    position: relative;
+    transition: 0.3s;
+}
+
+.profile-card-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.black {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.black:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.red {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.red:hover {
+    transition: 0.3s;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
